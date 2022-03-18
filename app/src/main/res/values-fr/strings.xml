@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Convert Miles Vers Km</string>
+    <string name="textView_prompt">Sél un animal</string>
+    <string name="dog">Chien</string>
+    <string name="cat">Chat</string>
+    <string name="pig">Cochon</string>
+    <string name="horse">Cheval</string>
+    <string name="toastMsg">"Vous avez choisi "</string>
+</resources>
