@@ -8,6 +8,7 @@
     tools:context=".BackgroundActivity">
 
     <RadioGroup
+        android:id="@+id/rbgroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
