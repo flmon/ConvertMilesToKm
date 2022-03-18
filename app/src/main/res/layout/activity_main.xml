@@ -77,18 +77,18 @@
         android:id="@+id/buttonBlue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="428dp"
+        android:layout_marginTop="388dp"
         android:backgroundTint="#3F51B5"
         android:onClick="toDo"
         android:text="Invisible"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="39dp" />
+        tools:layout_editor_absoluteX="30dp" />
 
     <Button
         android:id="@+id/buttonPink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="40dp"
         android:backgroundTint="#F403DC"
         android:onClick="toDo"
         android:text="Pop-up"
@@ -99,20 +99,30 @@
         android:id="@+id/buttonGoTo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="252dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="32dp"
         android:text="GO To List"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMusic" />
 
     <Button
         android:id="@+id/buttonMusic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:layout_marginEnd="64dp"
-        android:layout_marginBottom="224dp"
         android:text="Go to Music"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonConvKmToMiles" />
+
+    <Button
+        android:id="@+id/btnGoToChgBckg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:text="Go To ChangeBackGr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGoTo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

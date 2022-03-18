@@ -15,7 +15,7 @@ import java.text.DecimalFormat;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-    Button buttonPink, buttonBlue, buttonSpecial, buttonGoTo, buttonMusic;
+    Button buttonPink, buttonBlue, buttonSpecial, buttonGoTo, buttonMusic, buttonGoToChgB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +44,14 @@ public class MainActivity extends AppCompatActivity {
         buttonMusic.setOnClickListener(view -> {
             Intent intent = new Intent(getApplicationContext(),
                     MusicActivity.class);
+
+            startActivity(intent);
+        });
+
+        buttonGoToChgB = findViewById(R.id.btnGoToChgBckg);
+        buttonGoToChgB.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(),
+                    BackgroundActivity.class);
 
             startActivity(intent);
         });
