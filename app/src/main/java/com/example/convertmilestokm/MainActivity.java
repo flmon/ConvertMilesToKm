@@ -56,6 +56,14 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Button buttonGoToImg = findViewById(R.id.buttonGoToImg);
+        buttonGoToImg.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(),
+                    ImageActivity.class);
+
+            startActivity(intent);
+        });
+
 
         Button buttonConvMilesToKm = findViewById(R.id.buttonConvMilesToKm);
         buttonConvMilesToKm.setOnClickListener(view -> {

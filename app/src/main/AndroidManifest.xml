@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConvertMilesToKm">
         <activity
+            android:name=".WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageActivity"
+            android:exported="false" />
+        <activity
             android:name=".BackgroundActivity"
             android:exported="false" />
         <activity
