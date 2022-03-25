@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RatingBar;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -68,8 +69,20 @@ public class MainActivity extends AppCompatActivity {
         buttonGoToWeb.setOnClickListener(view -> {
             Intent intent = new Intent(getApplicationContext(),
                     WebActivity.class);
-            
+
             startActivity(intent);
+        });
+
+        Button buttonGoToMain2 = findViewById(R.id.buttonGoToMain2);
+        buttonGoToMain2.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(),
+                    MainActivity2.class);
+            RatingBar rb = findViewById(R.id.ratingBar);
+            float rating = rb.getRating();
+            intent.putExtra("nbStars", rating);
+            startActivity(intent);
+            //no back
+            finish();
         });
 
 
