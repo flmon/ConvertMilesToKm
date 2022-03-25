@@ -64,6 +64,14 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        Button buttonGoToWeb = findViewById(R.id.buttonGoToWeb);
+        buttonGoToWeb.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(),
+                    WebActivity.class);
+            
+            startActivity(intent);
+        });
+
 
         Button buttonConvMilesToKm = findViewById(R.id.buttonConvMilesToKm);
         buttonConvMilesToKm.setOnClickListener(view -> {
