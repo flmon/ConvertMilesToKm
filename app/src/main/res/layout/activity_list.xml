@@ -10,10 +10,10 @@
     tools:context="com.example.convertmilestokm.ListActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/textView_prompt"
-        android:id="@+id/textView" />
+        android:text="@string/textView_prompt" />
 
     <ListView
         android:id="@+id/listView"

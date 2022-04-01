@@ -35,4 +35,5 @@
         android:text="Send"
         app:layout_constraintTop_toBottomOf="@+id/editTextMsg"
         tools:layout_editor_absoluteX="226dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

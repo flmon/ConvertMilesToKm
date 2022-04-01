@@ -9,9 +9,13 @@
         <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/activity_main2.xml" value="0.22146739130434784" />
         <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/activity_music.xml" value="0.22146739130434784" />
+        <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/activity_navigation.xml" value="0.10729166666666666" />
         <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/activity_web.xml" value="0.22146739130434784" />
         <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/content_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/fragment_dashboard.xml" value="0.10729166666666666" />
         <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/fragment_first.xml" value="0.22826086956521738" />
+        <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/fragment_home.xml" value="0.10729166666666666" />
+        <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/fragment_notifications.xml" value="0.10729166666666666" />
         <entry key="..\:/Dev/AndroidProjects/ConvertMilesToKm/app/src/main/res/layout/fragment_second.xml" value="0.22826086956521738" />
       </map>
     </option>

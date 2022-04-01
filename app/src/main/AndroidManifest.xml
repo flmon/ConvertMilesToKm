@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConvertMilesToKm">
         <activity
+            android:name=".nav.NavigationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_navigation" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
